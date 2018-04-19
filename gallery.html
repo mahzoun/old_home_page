@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="assets/ico/favicon.ico">
+
+    <title>Mohammad Mahzoun</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy this line! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <!-- Static navbar -->
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div class="navbar-collapse collaps">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="active"><a href="index.html">Home</a></li>
+
+            <li class="active"><a href="gallery.html">Gallery</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+
+
+	<div id="headerwrap">
+	    <div class="container">
+			<div class="row">
+				<div class="col-lg-6 col-lg-offset-3">
+					<h4>HELLO PEOPLE, MY NAME IS</h4>
+					<h2>Mohammad Mahzoun</h2>
+				</div>
+			</div><!--/row -->
+	    </div> <!-- /container -->
+	</div><!--/headerwrap -->
+
+    <section id="works"></section>
+	<div class="container">
+		<div class="row centered mt mb">
+			<h1>My Portfolio</h1>
+
+			<div class="col-lg-4 col-md-4 col-sm-4 gallery">
+				<img alt="Pion Club, April 2018, Tehran" id="1.jpg" src="assets/img/portfolio/1.jpg" class="img-responsive">
+
+                <!-- The Modal -->
+                <div id="myModal" class="modal">
+
+                  <!-- The Close Button -->
+                  <span class="close">&times;</span>
+
+                  <!-- Modal Content (The Image) -->
+                  <img class="modal-content" id="img01">
+
+                  <!-- Modal Caption (Image Text) -->
+                  <div id="caption"></div>
+                </div>
+                <script>
+                    // Get the modal
+                    var modal = document.getElementById('myModal');
+
+                    // Get the image and insert it inside the modal - use its "alt" text as a caption
+                    var img = document.getElementById('1.jpg');
+                    var modalImg = document.getElementById("img01");
+                    var captionText = document.getElementById("caption");
+                    img.onclick = function(){
+                        modal.style.display = "block";
+                        modalImg.src = this.src;
+                        captionText.innerHTML = this.alt;
+                    }
+
+                    // Get the <span> element that closes the modal
+                    var span = document.getElementsByClassName("close")[0];
+
+                    // When the user clicks on <span> (x), close the modal
+                    span.onclick = function() {
+                        modal.style.display = "none";
+                    }
+                    </script>
+                </div>
+			<div class="col-lg-4 col-md-4 col-sm-4 gallery">
+				<img alt="University of Tehran, Tehran" id="2.jpg" src="assets/img/portfolio/2.jpg" class="img-responsive">
+
+                <!-- The Modal -->
+                <div id="myModal2" class="modal">
+
+                  <!-- The Close Button -->
+                  <span class="close">&times;</span>
+
+                  <!-- Modal Content (The Image) -->
+                  <img class="modal-content" id="img02">
+
+                  <!-- Modal Caption (Image Text) -->
+                  <div id="caption2"></div>
+                </div>
+                <script>
+                    // Get the modal
+                    var modal = document.getElementById('myModal2');
+
+                    // Get the image and insert it inside the modal - use its "alt" text as a caption
+                    var img = document.getElementById('2.jpg');
+                    var modalImg = document.getElementById("img02");
+                    var captionText = document.getElementById("caption");
+                    img.onclick = function(){
+                        modal.style.display = "block";
+                        modalImg.src = this.src;
+                        captionText.innerHTML = this.alt;
+                    }
+
+                    // Get the <span> element that closes the modal
+                    var span = document.getElementsByClassName("close")[1];
+
+                    // When the user clicks on <span> (x), close the modal
+                    span.onclick = function() {
+                        modal.style.display = "none";
+                    }
+                    </script>
+			</div>
+ 			<div class="col-lg-4 col-md-4 col-sm-4 gallery">
+				<img alt="University of Tehran, Tehran" id="3.jpg" src="assets/img/portfolio/3.jpg" class="img-responsive">
+
+                <!-- The Modal -->
+                <div id="myModal3" class="modal">
+
+                  <!-- The Close Button -->
+                  <span class="close">&times;</span>
+
+                  <!-- Modal Content (The Image) -->
+                  <img class="modal-content" id="img03">
+
+                  <!-- Modal Caption (Image Text) -->
+                  <div id="caption3"></div>
+                </div>
+                <script>
+                    // Get the modal
+                    var modal = document.getElementById('myModal3');
+
+                    // Get the image and insert it inside the modal - use its "alt" text as a caption
+                    var img = document.getElementById('3.jpg');
+                    var modalImg = document.getElementById("img03");
+                    var captionText = document.getElementById("caption3");
+                    img.onclick = function(){
+                        modal.style.display = "block";
+                        modalImg.src = this.src;
+                        captionText.innerHTML = this.alt;
+                    }
+
+                    // Get the <span> element that closes the modal
+                    var span = document.getElementsByClassName("close")[2];
+
+                    // When the user clicks on <span> (x), close the modal
+                    span.onclick = function() {
+                        modal.style.display = "none";
+                    }
+                    </script>
+                  </div>
+		</div><!--/row -->
+	</div><!--/container -->
+
+	<div id="social">
+		<div class="container">
+			<div class="row centered">
+				</div>
+				<div class="col-lg-2">
+					<a href="https://twitter.com/MMahzoun"><i class="fa fa-twitter"></i></a>
+				</div>
+				<div class="col-lg-2">
+					<a href="https://www.linkedin.com/in/mohammadmahzoun/"><i class="fa fa-linkedin"></i></a>
+				</div>
+				<div class="col-lg-2">
+					<a href="https://www.instagram.com/mohammad.mahzoun/"><i class="fa fa-instagram"></i></a>
+				</div>
+
+
+			</div><!--/row -->
+		</div><!--/container -->
+	</div><!--/social -->
+
+	<div id="footerwrap">
+		<div class="container">
+			<div class="row centered">
+
+				<div class="col-lg-6">
+					<p>email: mohammad[dot]mahzoun[at]gmail[dot]com</p>
+                    <p>cell: +98-915-490-8722</p>
+				</div>
+			</div>
+		</div>
+	</div><!--/footerwrap -->
+
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+  </body>
+</html>
