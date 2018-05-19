@@ -76,8 +76,8 @@
                     var modal = document.getElementById('myModal');
 
                     // Get the image and insert it inside the modal - use its "alt" text as a caption
-                    var img = document.getElementById('1.jpg');
-                    var modalImg = document.getElementById("img01");
+                    var img = document.getElementById(1+'.jpg');
+                    var modalImg = document.getElementById("img0"+1);
                     var captionText = document.getElementById("caption");
                     img.onclick = function(){
                         modal.style.display = "block";
@@ -111,11 +111,11 @@
                 </div>
                 <script>
                     // Get the modal
-                    var modal = document.getElementById('myModal2');
+                    var modal = document.getElementById('myModal'+2);
 
                     // Get the image and insert it inside the modal - use its "alt" text as a caption
-                    var img = document.getElementById('2.jpg');
-                    var modalImg = document.getElementById("img02");
+                    var img = document.getElementById(2+'.jpg');
+                    var modalImg = document.getElementById("img0"+2);
                     var captionText = document.getElementById("caption");
                     img.onclick = function(){
                         modal.style.display = "block";
@@ -149,12 +149,12 @@
                 </div>
                 <script>
                     // Get the modal
-                    var modal = document.getElementById('myModal3');
+                    var modal = document.getElementById('myModal'+3);
 
                     // Get the image and insert it inside the modal - use its "alt" text as a caption
-                    var img = document.getElementById('3.jpg');
-                    var modalImg = document.getElementById("img03");
-                    var captionText = document.getElementById("caption3");
+                    var img = document.getElementById(3+'.jpg');
+                    var modalImg = document.getElementById("img0"+3);
+                    var captionText = document.getElementById("caption"+3);
                     img.onclick = function(){
                         modal.style.display = "block";
                         modalImg.src = this.src;
