@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Mohammad Mahzoun"
+title: ""
 excerpt: "I am computer science student!"
 author_profile: true
 redirect_from:
