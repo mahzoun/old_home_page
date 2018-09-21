@@ -79,33 +79,33 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Sidebar Name"
+  name             : ""
   avatar           : "profile.png"
-  bio              : "Your biography for the left-hand sidebar"
+  bio              : "Computer Science student at University of Tehran"
   location         : "Location"
   employer         :
-  googlescholar    : "http://yourfullgooglescholarurl.com"
-  email            :
-  uri              :
+  googlescholar    : "https://scholar.google.com/citations?user=4m_p68MAAAAJ&hl=en"
+  email            : "mohammad.mahzoun@gmail.com"
+  uri              : "https://mahzoun.me"
   bitbucket        :
   codepen          :
   dribbble         :
-  flickr           :
-  facebook         :
+  flickr           : "https://www.flickr.com/photos/mahzoun/"
+  facebook         : "https://www.facebook.com/mmahzoun"
   foursquare       :
-  github           : "academicpages"
+  github           : "mahzoun"
   google_plus      :
   keybase          :
-  instagram        :
+  instagram        : "https://www.instagram.com/mohammad.mahzoun/"
   lastfm           :
-  linkedin         :
-  orcid            : "http://orcid.org/yourorcidurl"
-  pinterest        :
+  linkedin         : "https://www.linkedin.com/in/mohammadmahzoun/"
+  orcid            : 
+  pinterest        : "https://www.pinterest.com/mohammadmahzoun/"
   soundcloud       :
-  stackoverflow    : # http://stackoverflow.com/users/123456/username
+  stackoverflow    : "https://stackoverflow.com/users/4786752/mohammad-mahzoun"
   steam            :
   tumblr           :
-  twitter          : "replacethistwitterhandle"
+  twitter          : "mmahzoun"
   vine             :
   weibo            :
   xing             :
