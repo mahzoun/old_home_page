@@ -1,7 +1,7 @@
 ---
 title: 'He was wise'
 date: 2019-02-01
-permalink: /posts/2019-02-blog-post-1/
+permalink: /posts/2019/02/blog-post-1/
 tags:
   - memories
   - rise
