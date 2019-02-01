@@ -1,4 +1,4 @@
----
+<!-- ---
 title: "Test"
 collection: publications
 permalink: /publication/2009-10-01-paper-title-number-1
@@ -12,4 +12,4 @@ This test is just for test :) I wrote it in order to remember the publications t
 
 [Download paper here](http://mahzoun.me)
 
-Recommended citation: Your Name, You. (2009). "Paper Title Number 1." <i>Journal 1</i>. 1(1).
+Recommended citation: Your Name, You. (2009). "Paper Title Number 1." <i>Journal 1</i>. 1(1). -->
