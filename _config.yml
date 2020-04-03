@@ -18,6 +18,8 @@ teaser                   :  # filename of teaser fallback teaser image placed in
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
 future                   : false
+theme                    : minimal-mistakes-jekyll
+minimal_mistakes_skin    : "dark"
 read_more                : "enabled" # if enabled, adds "Read more" links to excerpts
 comments:
   provider               : "disqus" # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
